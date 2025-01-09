@@ -1,6 +1,7 @@
 {
   "build": {
     "type": "gradle",
+    "preBuild": "chmod 777 gradlew",
     "goal": "assemble"
   },
   "deploy": {
